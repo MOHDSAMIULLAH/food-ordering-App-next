@@ -20,3 +20,7 @@ This project is a full-stack food ordering website developed using NEXT.js, Mong
 - **Backend**: Node.js, MongoDB
 - **Authentication**: NEXTAuth.js
 - **Payment Gateway**: Stripe
+
+### For payment use card number: 4000003560000008
+* pass any future date
+* cvv: any number
