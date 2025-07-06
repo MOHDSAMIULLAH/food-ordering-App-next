@@ -5,6 +5,18 @@
 ## Overview
 This project is a full-stack food ordering website developed using NEXT.js, MongoDB, NEXTAuth.js, Context API, Tailwind CSS, and Stripe payment gateway. It offers a seamless user experience with authentication features, profile editing, admin panel, menu item management, and secure payment processing.
 
+## Preview
+
+![home](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![cart](image-3.png)
+
+![contact](image-4.png)
+
 ### Features
 
 - **Authentication**: Utilizes NEXTAuth.js for authentication, including Google login functionality.
