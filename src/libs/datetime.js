@@ -1,4 +1,7 @@
 export function dbTimeForHuman(str) {
-
-  return str.replace('T', ' ').substring(0, 16);
+  const utcDate = new Date(str); // convert string to Date object
+  const indiaTime = utcDate.toLocaleString("en-IN", {
+    timeZone: "Asia/Kolkata",
+  });
+  return indiaTime;
 }

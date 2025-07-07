@@ -2,7 +2,7 @@ import {cartProductPrice} from "@/components/AppContext";
 import Trash from "@/components/icons/Trash";
 import Image from "next/image";
 
-export default function CartProduct({product,onRemove}) {
+export default function CartProduct({product,onRemove,cartIndex}) {
   return (
     <div className="flex items-center gap-4 border-b py-4">
       <div className="w-24">
@@ -32,7 +32,7 @@ export default function CartProduct({product,onRemove}) {
         <div className="ml-2">
           <button
             type="button"
-            onClick={() => onRemove(index)}
+            onClick={() => onRemove(cartIndex)}
             className="p-2">
             <Trash />
           </button>
