@@ -1,0 +1,15 @@
+MONGO_URL="mongodb+srv://Food_Ordering_App:Food_Ordering_App@foodorderingapp.wf1vptp.mongodb.net/food-ordering?retryWrites=true&w=majority&appName=FoodOrderingApp"
+# NEXTAUTH_URL="https://food-ordering-next.vercel.app/"
+NEXTAUTH_URL="http://localhost:3000/"
+SECRET="SECRET"
+
+
+NEXT_PUBLIC_GOOGLE_CLIENT_ID=
+NEXT_PUBLIC_GOOGLE_CLIENT_SECRET=
+
+
+STRIPE_SK=
+STRIPE_SIGN_SECRET=
+
+
+NODE_ENV= "development"

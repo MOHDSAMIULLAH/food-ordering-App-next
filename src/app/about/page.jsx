@@ -2,7 +2,7 @@ import React from 'react'
 
 function AboutUs() {
   return (
-    <section className="flex items-center bg-stone-100 lg:h-screen font-poppins dark:bg-gray-800 ">
+    <section className="flex items-center bg-stone-100 font-poppins dark:bg-gray-800 mt-10 py-20">
     <div className="justify-center flex-1 max-w-6xl py-20 mx-auto  md:px-6">
         <div className="px-4 mb-10 md:text-center md:mb-20">
             <p className="mb-2 text-lg font-semibold text-blue-500 dark:text-gray-400">
